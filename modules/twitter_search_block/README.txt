@@ -24,9 +24,6 @@ The module requires two modules:
 
 INSTALLATION
 ------------
- * Install as you would normally install a contributed drupal module. See:
-  https://drupal.org/documentation/install/modules-themes/modules-7
-  for further information.
 
 CONFIGURATION
 -------------
@@ -42,5 +39,3 @@ Todo
 
 MAINTAINERS
 -----------
-Current maintainers:
- * Thomas Seidl (drunken monkey) - https://drupal.org/user/205582
