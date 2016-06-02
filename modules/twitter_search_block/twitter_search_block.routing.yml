@@ -1,0 +1,16 @@
+twitter.Configuration.form:
+  path: 'admin/config/services/configuration'
+  defaults:
+    _title: 'Twitter OAuth Configuration'
+    _form: '\Drupal\twitter_search_block\Form\TwitterAuthForm'
+  requirements:
+    _permission: 'access content'
+    
+twitter.blockConfig.form:
+  path: 'admin/config/services/block/configuration'
+  defaults:
+    _title: 'Twitter Block Configuration'
+    _form: '\Drupal\twitter_search_block\Form\TwitterHashBlockConfig'
+  requirements:
+    _permission: 'access content'
+    

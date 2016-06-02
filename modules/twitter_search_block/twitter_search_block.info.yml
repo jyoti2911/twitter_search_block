@@ -1,0 +1,9 @@
+name: twitter_search_block
+type: module
+description: 'The module provides a block with embedded timelines of given search query.Search value can be also be provided as a field in contents'
+package: Custom
+version: 8.x
+core: 8.x
+dependencies:
+  - field
+  - block

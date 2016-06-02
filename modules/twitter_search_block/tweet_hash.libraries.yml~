@@ -1,0 +1,6 @@
+tweet_hash.js:
+  js:
+    js/twitter_hashtag.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

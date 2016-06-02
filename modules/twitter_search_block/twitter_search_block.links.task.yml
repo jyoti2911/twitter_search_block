@@ -1,0 +1,8 @@
+twitter_search_block.tab_1:
+  route_name: twitter.Configuration.form
+  title: Twitter OAuth Configuration
+  base_route: twitter.Configuration.form
+twitter_search_block.tab_2:
+   route_name: twitter.blockConfig.form
+   title: Twitter Block Configuration
+   base_route: twitter.Configuration.form

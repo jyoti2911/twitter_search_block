@@ -1,0 +1,7 @@
+Oauth.configuration:
+  title: Twitter OAuth Configuration
+  description: 'Configure Oauth credentials to use search'
+  parent: system.admin_config_services
+  route_name: twitter.Configuration.form
+  weight: 100
+    
