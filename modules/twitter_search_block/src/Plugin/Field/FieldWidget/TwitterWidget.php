@@ -15,11 +15,11 @@ use Drupal\Core\Form\FormStateInterface;
  * Plugin implementation of the 'field_example_text' widget.
  *
  * @FieldWidget(
- *   id = "twitter_hashtag_widget",
+ *   id = "twitter_search_widget",
  *   module = "twitter_search_block",
  *   label = @Translation("Twitter Hashtag Widget"),
  *   field_types = {
- *     "twitter_hashtag_fieldtype"
+ *     "twitter_search_fieldtype"
  *   }
  * )
  */

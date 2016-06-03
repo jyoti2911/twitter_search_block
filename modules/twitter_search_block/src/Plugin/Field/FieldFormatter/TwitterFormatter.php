@@ -13,11 +13,11 @@ use Drupal\Core\Field\FieldItemListInterface;
 /**
  *
  * @FieldFormatter(
- *   id = "twitter_hashtag_formatter",
+ *   id = "twitter_search_formatter",
  *   module = "twitter_search_block",
  *   label = @Translation("Twitter Hashtag Formatter"),
  *   field_types = {
- *     "twitter_hashtag_fieldtype"
+ *     "twitter_search_fieldtype"
  *   }
  * )
  */
@@ -30,11 +30,11 @@ class TwitterFormatter extends FormatterBase {
     $elements = array();
 
     foreach ($items as $delta => $item) {
-      // Render output using person_default theme.
       $elements[$delta] = array(
-        '#tweet_values' => $item->tweet_values,
+        '#markup' => $item->tweet_values,
       );
     }
     return $elements;
   }
+
 }

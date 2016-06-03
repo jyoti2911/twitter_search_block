@@ -14,11 +14,11 @@ use Drupal\Core\TypedData\DataDefinition;
 /**
  *
  * @FieldType(
- *   id = "twitter_hashtag_fieldtype",
+ *   id = "twitter_search_fieldtype",
  *   label = @Translation("Twitter Hashtags field"),
  *   description = @Translation("Twitter Hashtag field"),
- *   default_formatter = "twitter_hashtag_formatter",
- *   default_widget = "twitter_hashtag_widget"
+ *   default_formatter = "twitter_search_formatter",
+ *   default_widget = "twitter_search_widget"
  * )
  */
 class TwitterItem extends FieldItemBase{
